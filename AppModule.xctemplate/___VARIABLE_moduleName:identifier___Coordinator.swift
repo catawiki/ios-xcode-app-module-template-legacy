@@ -5,7 +5,7 @@ class ___VARIABLE_moduleName___Coordinator: ___VARIABLE_moduleName___Coordinatin
     var rootViewController: UIViewController!
     weak var output: ___VARIABLE_moduleName___CoordinatingOutput!
 
-    static func assemble(output:___VARIABLE_moduleName___CoordinatingOutput) -> ___VARIABLE_moduleName___Coordinating {
+    static func assemble(output: ___VARIABLE_moduleName___CoordinatingOutput) -> ___VARIABLE_moduleName___Coordinating {
         let coordinator = ___VARIABLE_moduleName___Coordinator()
         let view = ___VARIABLE_moduleName___ViewController.from(storyboard: "Main")
         let presenter = ___VARIABLE_moduleName___Presenter()
