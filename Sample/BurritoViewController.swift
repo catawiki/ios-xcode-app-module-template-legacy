@@ -10,7 +10,6 @@ class BurritoViewController: UIViewController, BurritoViewable {
     }
 }
 
-
 extension BurritoViewController {
 
     static func from(storyboard:String) -> BurritoViewController {
@@ -19,4 +18,3 @@ extension BurritoViewController {
         return vc as! BurritoViewController
     }
 }
-

@@ -11,7 +11,6 @@ class BurritoPresenter: BurritoPresenting {
     }
 }
 
-
 extension BurritoPresenter: BurritoInteractingOutput {
 
 }
