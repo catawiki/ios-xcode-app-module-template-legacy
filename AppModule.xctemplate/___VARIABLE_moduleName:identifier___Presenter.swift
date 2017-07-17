@@ -11,7 +11,6 @@ class ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___Presenting {
     }
 }
 
-
 extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___InteractingOutput {
 
 }

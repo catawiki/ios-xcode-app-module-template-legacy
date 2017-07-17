@@ -10,7 +10,6 @@ class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIABLE_mod
     }
 }
 
-
 extension ___VARIABLE_moduleName___ViewController {
 
     static func from(storyboard: String) -> ___VARIABLE_moduleName___ViewController {
@@ -20,4 +19,3 @@ extension ___VARIABLE_moduleName___ViewController {
     }
 
 }
-
