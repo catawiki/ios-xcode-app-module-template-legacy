@@ -14,4 +14,4 @@ Run `install.sh` script to copy the template to proper location
 
 ## Requirements
 
-Tested on Xcode 8.3.3 Not sure if it works on Xcode9
+Tested on Xcode 8.3.3 & Xcode9 beta6

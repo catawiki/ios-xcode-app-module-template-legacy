@@ -11,11 +11,9 @@ class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIABLE_mod
 }
 
 extension ___VARIABLE_moduleName___ViewController {
-
     static func from(storyboard: String) -> ___VARIABLE_moduleName___ViewController {
         let storyboard = UIStoryboard(name: storyboard, bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "___VARIABLE_moduleName___ViewController")
         return vc as! ___VARIABLE_moduleName___ViewController
     }
-
 }
