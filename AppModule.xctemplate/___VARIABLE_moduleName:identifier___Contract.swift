@@ -11,7 +11,7 @@ protocol ___VARIABLE_moduleName___Coordinating: class {
     static func assemble(output: ___VARIABLE_moduleName___CoordinatingOutput) -> ___VARIABLE_moduleName___Coordinating
 }
 
-protocol ___VARIABLE_moduleName___Presenting {
+protocol ___VARIABLE_moduleName___Presenting: class {
     var interactor: ___VARIABLE_moduleName___Interacting! { get set }
     var coordinator: ___VARIABLE_moduleName___Coordinating! { get set }
     weak var view: ___VARIABLE_moduleName___Viewable! { get set }
