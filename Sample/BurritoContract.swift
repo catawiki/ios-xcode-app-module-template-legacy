@@ -11,7 +11,7 @@ protocol BurritoCoordinating: class {
     static func assemble(output: BurritoCoordinatingOutput) -> BurritoCoordinating
 }
 
-protocol BurritoPresenting {
+protocol BurritoPresenting: class {
     var interactor: BurritoInteracting! { get set }
     var coordinator: BurritoCoordinating! { get set }
     weak var view: BurritoViewable! { get set }
