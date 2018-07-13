@@ -6,7 +6,6 @@ class BurritoPresenter: BurritoPresenting {
     weak var view: BurritoViewable!
 
     func viewDidLoad() {
-
     }
 }
 

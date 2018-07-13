@@ -10,7 +10,7 @@ class BurritoCoordinator: BurritoCoordinating {
         let view = BurritoViewController.from(storyboard: "Main")
         let presenter = BurritoPresenter()
         let interactor = BurritoInteractor()
-        
+
         presenter.interactor = interactor
         presenter.view = view
         presenter.coordinator = coordinator
@@ -18,7 +18,7 @@ class BurritoCoordinator: BurritoCoordinating {
         view.presenter = presenter
 
         interactor.output = presenter
-        
+
         coordinator.rootViewController = view
         coordinator.output = output
 
