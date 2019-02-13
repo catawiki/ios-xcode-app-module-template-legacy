@@ -1,5 +1,5 @@
 import Foundation
 
 class BurritoInteractor: BurritoInteracting {
-    weak var output: BurritoInteractingOutput!
+    weak var output: BurritoInteractingOutput?
 }

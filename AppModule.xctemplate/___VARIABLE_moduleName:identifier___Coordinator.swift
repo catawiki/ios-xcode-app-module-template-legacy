@@ -2,8 +2,8 @@ import Foundation
 import UIKit
 
 class ___VARIABLE_moduleName___Coordinator: ___VARIABLE_moduleName___Coordinating {
-    weak var rootViewController: UIViewController!
-    weak var output: ___VARIABLE_moduleName___CoordinatingOutput!
+    weak var rootViewController: UIViewController?
+    weak var output: ___VARIABLE_moduleName___CoordinatingOutput?
 
     static func assemble(output: ___VARIABLE_moduleName___CoordinatingOutput) -> ___VARIABLE_moduleName___Coordinating {
         let coordinator = ___VARIABLE_moduleName___Coordinator()
