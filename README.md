@@ -12,6 +12,3 @@ Run `install.sh` script to copy the template to proper location
 4. Skip the file name (don't change)
 5. Enjoy
 
-## Requirements
-
-Tested on Xcode 8.3.3 & Xcode9 beta6
