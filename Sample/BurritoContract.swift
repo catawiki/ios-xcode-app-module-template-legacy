@@ -1,17 +1,17 @@
 import Foundation
 import UIKit
 
-protocol BurritoCoordinatingOutput: class {
+protocol BurritoCoordinatingOutput: AnyObject {
 }
 
-protocol BurritoCoordinating: class {
+protocol BurritoCoordinating: AnyObject {
     var rootViewController: UIViewController? { get set }
     var output: BurritoCoordinatingOutput? { get set }
 
     static func assemble(output: BurritoCoordinatingOutput) -> BurritoCoordinating
 }
 
-protocol BurritoPresenting: class {
+protocol BurritoPresenting: AnyObject {
     var interactor: BurritoInteracting! { get set }
     var coordinator: BurritoCoordinating! { get set }
     var view: BurritoViewable? { get set }
@@ -19,11 +19,11 @@ protocol BurritoPresenting: class {
     func viewDidLoad()
 }
 
-protocol BurritoInteracting: class {
+protocol BurritoInteracting: AnyObject {
     var output: BurritoInteractingOutput? { get set }
 }
 
-protocol BurritoInteractingOutput: class {
+protocol BurritoInteractingOutput: AnyObject {
 }
 
 protocol BurritoViewable: class {
