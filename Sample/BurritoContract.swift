@@ -26,6 +26,6 @@ protocol BurritoInteracting: AnyObject {
 protocol BurritoInteractingOutput: AnyObject {
 }
 
-protocol BurritoViewable: class {
+protocol BurritoViewable: AnyObject {
     var presenter: BurritoPresenting! { get set }
 }
