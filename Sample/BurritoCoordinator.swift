@@ -2,10 +2,9 @@ import Foundation
 import UIKit
 
 class BurritoCoordinator: BurritoCoordinating {
-    weak var rootViewController: UIViewController?
     weak var output: BurritoCoordinatingOutput?
 
-    static func assemble(output: BurritoCoordinatingOutput) -> BurritoCoordinating {
+    static func assemble(output: BurritoCoordinatingOutput) -> UIViewController {
         let coordinator = BurritoCoordinator()
         let view: BurritoViewController = UIViewController.fromStoryboard(named: "Main")
         let presenter = BurritoPresenter()
@@ -19,9 +18,8 @@ class BurritoCoordinator: BurritoCoordinating {
 
         interactor.output = presenter
 
-        coordinator.rootViewController = view
         coordinator.output = output
 
-        return coordinator
+        return view
     }
 }
