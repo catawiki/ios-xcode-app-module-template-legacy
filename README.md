@@ -15,6 +15,6 @@ Run `install.sh` script to copy the template to proper location
 
 ### Quick spec
 2. Right click to `New file... -> Quick Spec Class` 
-3. Enter name of the file/class **being tested**
+3. Enter name of the file/class **being tested**: `BurritoPresenter`, **not** `BurritoPresenterSpec`
 5. Enjoy
 
