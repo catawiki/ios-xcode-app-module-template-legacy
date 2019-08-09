@@ -6,8 +6,6 @@ protocol BurritoCoordinatingOutput: AnyObject {
 
 protocol BurritoCoordinating: AnyObject {
     var output: BurritoCoordinatingOutput? { get set }
-
-    static func assemble(output: BurritoCoordinatingOutput) -> UIViewController
 }
 
 protocol BurritoPresenting: AnyObject {
