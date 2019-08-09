@@ -6,8 +6,6 @@ protocol ___VARIABLE_moduleName___CoordinatingOutput: AnyObject {
 
 protocol ___VARIABLE_moduleName___Coordinating: AnyObject {
     var output: ___VARIABLE_moduleName___CoordinatingOutput? { get set }
-
-    static func assemble(output: ___VARIABLE_moduleName___CoordinatingOutput) -> UIViewController
 }
 
 protocol ___VARIABLE_moduleName___Presenting: AnyObject {
