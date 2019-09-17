@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>New app module. Creates Contract, Coordinator, Presenter, Interactor and ViewController classes</string>
+	<string>New app module. Creates Contract, Module, Router, Presenter, Interactor and ViewController classes</string>
 	<key>Summary</key>
 	<string>New Viper module</string>
 	<key>SortOrder</key>

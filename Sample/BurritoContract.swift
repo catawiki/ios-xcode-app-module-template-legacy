@@ -1,16 +1,13 @@
 import Foundation
 import UIKit
 
-protocol BurritoCoordinatingOutput: AnyObject {
-}
-
-protocol BurritoCoordinating: AnyObject {
-    var output: BurritoCoordinatingOutput? { get set }
+protocol BurritoRouting: AnyObject {
+    var presenter: BurritoPresenting? { get set }
 }
 
 protocol BurritoPresenting: AnyObject {
     var interactor: BurritoInteracting! { get set }
-    var coordinator: BurritoCoordinating! { get set }
+    var router: BurritoRouting! { get set }
     var view: BurritoViewable? { get set }
 
     func viewDidLoad()
