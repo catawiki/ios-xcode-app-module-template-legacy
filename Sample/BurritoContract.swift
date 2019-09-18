@@ -1,9 +1,7 @@
 import Foundation
 import UIKit
 
-protocol BurritoRouting: AnyObject {
-    var presenter: BurritoPresenting? { get set }
-}
+protocol BurritoRouting: AnyObject {}
 
 protocol BurritoPresenting: AnyObject {
     var interactor: BurritoInteracting! { get set }

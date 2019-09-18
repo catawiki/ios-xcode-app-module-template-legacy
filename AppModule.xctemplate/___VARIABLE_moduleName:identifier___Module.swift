@@ -15,7 +15,7 @@ enum ___VARIABLE_moduleName___Module {
 
         interactor.output = presenter
 
-        router.presenter = presenter
+        router.rootViewController = view
 
         return view
     }

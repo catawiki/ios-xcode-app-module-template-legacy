@@ -15,7 +15,7 @@ enum BurritoModule {
 
         interactor.output = presenter
 
-        router.presenter = presenter
+        router.rootViewController = view
 
         return view
     }

@@ -1,9 +1,7 @@
 import Foundation
 import UIKit
 
-protocol ___VARIABLE_moduleName___Routing: AnyObject {
-    var presenter: ___VARIABLE_moduleName___Presenting? { get set }
-}
+protocol ___VARIABLE_moduleName___Routing: AnyObject {}
 
 protocol ___VARIABLE_moduleName___Presenting: AnyObject {
     var interactor: ___VARIABLE_moduleName___Interacting! { get set }
