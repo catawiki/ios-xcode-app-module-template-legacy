@@ -1,7 +1,7 @@
-import Foundation
+import UIKit
 
-enum ___VARIABLE_moduleName___Module {
-    static func assemble() -> UIViewController {
+class ___VARIABLE_moduleName___Module: ___VARIABLE_moduleName___ModuleType {
+    func assemble() -> UIViewController {
         let router = ___VARIABLE_moduleName___Router()
         let view = ___VARIABLE_moduleName___ViewController()
         let presenter = ___VARIABLE_moduleName___Presenter()
