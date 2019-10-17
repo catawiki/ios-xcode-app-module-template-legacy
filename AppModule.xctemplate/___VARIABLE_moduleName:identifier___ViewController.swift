@@ -6,6 +6,6 @@ class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIABLE_mod
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        presenter.viewDidLoad()
     }
 }
