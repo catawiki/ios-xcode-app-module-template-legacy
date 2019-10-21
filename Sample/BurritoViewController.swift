@@ -6,6 +6,6 @@ class BurritoViewController: UIViewController, BurritoViewable {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        presenter.viewDidLoad()
     }
 }

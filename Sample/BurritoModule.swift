@@ -1,7 +1,7 @@
-import Foundation
+import UIKit
 
-enum BurritoModule {
-    static func assemble() -> UIViewController {
+class BurritoModule: BurritoModuleType {
+    func assemble() -> UIViewController {
         let router = BurritoRouter()
         let view = BurritoViewController()
         let presenter = BurritoPresenter()

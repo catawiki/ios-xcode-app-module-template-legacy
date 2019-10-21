@@ -1,6 +1,12 @@
 import Foundation
 
-protocol BurritoRouting: AnyObject {}
+protocol BurritoModuleType {
+    func assemble() -> UIViewController
+}
+
+protocol BurritoRouting: AnyObject {
+    var rootViewController: UIViewController? { get set }
+}
 
 protocol BurritoPresenting: AnyObject {
     var interactor: BurritoInteracting! { get set }

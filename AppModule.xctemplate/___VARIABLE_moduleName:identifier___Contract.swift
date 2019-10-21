@@ -1,6 +1,12 @@
 import Foundation
 
-protocol ___VARIABLE_moduleName___Routing: AnyObject {}
+protocol ___VARIABLE_moduleName___ModuleType {
+    func assemble() -> UIViewController
+}
+
+protocol ___VARIABLE_moduleName___Routing: AnyObject {
+    var rootViewController: UIViewController? { get set }
+}
 
 protocol ___VARIABLE_moduleName___Presenting: AnyObject {
     var interactor: ___VARIABLE_moduleName___Interacting! { get set }
