@@ -55,7 +55,7 @@ class ___VARIABLE_moduleName___ModuleSpec: QuickSpec {
         var router: ___VARIABLE_moduleName___Router!
 
         beforeEach {
-            let rootViewController = ___VARIABLE_moduleName___Module()
+            let rootViewController = ___VARIABLE_moduleName___Module().assemble()
             let module = ___VARIABLE_moduleName___ModuleUnwrapper(moduleView: rootViewController)
             
             view = module.view
