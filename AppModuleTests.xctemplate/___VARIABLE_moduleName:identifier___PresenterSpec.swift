@@ -9,11 +9,9 @@ class ___VARIABLE_moduleName___PresenterSpec: QuickSpec {
         var view: ___VARIABLE_moduleName___ViewableMock!
         var interactor: ___VARIABLE_moduleName___InteractingMock!
         var router: ___VARIABLE_moduleName___RoutingMock!
-        var analytics: AnalyzingMock!
         
         beforeEach {
-            analytics = AnalyzingMock()
-            subject = ___VARIABLE_moduleName___Presenter(analytics: analytics)
+            subject = ___VARIABLE_moduleName___Presenter()
             view = ___VARIABLE_moduleName___ViewableMock()
             interactor = ___VARIABLE_moduleName___InteractingMock()
             router = ___VARIABLE_moduleName___RoutingMock()
@@ -28,7 +26,6 @@ class ___VARIABLE_moduleName___PresenterSpec: QuickSpec {
             view = nil
             router = nil
             interactor = nil
-            analytics = nil
         }
     }
 }

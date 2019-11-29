@@ -5,7 +5,7 @@ import Nimble
 
 class ___VARIABLE_moduleName___RouterSpec: QuickSpec {
     override func spec() {
-        var subject: ___VARIABLE_moduleName___RouterRouter!
+        var subject: ___VARIABLE_moduleName___Router!
         var output: ___VARIABLE_moduleName___ModuleOutputMock!
         
         beforeEach {
