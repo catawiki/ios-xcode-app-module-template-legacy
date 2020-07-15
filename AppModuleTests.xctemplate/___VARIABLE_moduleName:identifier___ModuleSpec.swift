@@ -51,7 +51,7 @@ class ___VARIABLE_moduleName___ModuleSpec: QuickSpec {
             router = nil
         }
         
-        it("sets up the router dependecies") {
+        it("sets up the router dependencies") {
             expect(router.presenter) === presenter
             expect(router.rootViewController) === view
         }
