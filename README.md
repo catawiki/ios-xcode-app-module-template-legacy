@@ -1,8 +1,11 @@
 # Catawiki Xcode template
 
 This repository contains Xcode templates that we use for iOS development in Catawiki.
-It currently contains 2 templates:
+It currently contains 5 templates:
 - VIPER Module
+- VIPER Module tests
+- VIPER Component
+- VIPER Component tests
 - Quick Spec
 
 ## Installation
@@ -16,6 +19,39 @@ To save time setting up new VIPER modules, and to avoid making mistakes in the s
 1. Create a group for new module in project tree
 2. Right click to `New file... -> AppModule` 
 3. Enter module name
+4. Skip the file name (don't change)
+5. Enjoy
+
+## VIPER Module Tests Template
+### Purpose
+To save time setting up tests for new VIPER modules, and to avoid making mistakes in the setup.
+
+### Usage
+1. Create a group for new module in project tree
+2. Right click to `New file... -> AppModuleTests` 
+3. Enter module name
+4. Skip the file name (don't change)
+5. Enjoy
+
+## VIPER Component Template
+### Purpose
+To save time setting up new VIPER component, and to avoid making mistakes in the setup (strong-weak references, using outdated conventions).
+
+### Usage
+1. Create a group for new component in project tree
+2. Right click to `New file... -> AppComponent` 
+3. Enter component name
+4. Skip the file name (don't change)
+5. Enjoy
+
+## VIPER Component Tests Template
+### Purpose
+To save time setting up tests for new VIPER components, and to avoid making mistakes in the setup.
+
+### Usage
+1. Create a group for new component in project tree
+2. Right click to `New file... -> AppComponentTests` 
+3. Enter component name
 4. Skip the file name (don't change)
 5. Enjoy
 
