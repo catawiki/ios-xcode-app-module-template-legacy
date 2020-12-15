@@ -8,7 +8,7 @@ mkdir -p "${TEMPLATE_PATH}"
 
 for TEMPLATE in *.xctemplate; do
     # Remove the old template
-    rm -r "${TEMPLATE_PATH}"/"${TEMPLATE}"
+    rm -f -r "${TEMPLATE_PATH}"/"${TEMPLATE}"
     # Copy the new template
     cp -r "${TEMPLATE}" "${TEMPLATE_PATH}"
 done
